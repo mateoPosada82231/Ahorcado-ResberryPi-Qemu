@@ -6,7 +6,7 @@ limite_fallos:    .word 6
 fallos_actuales:  .word 0
 letras_acertadas: .word 0
 
-mensaje_bienvenida: .asciz "Andres Lopez, Mateo Posada, Joseph Rincon\n\n*** AHORCADO - JUEGO DE PALABRAS ***\n\n"
+mensaje_bienvenida: .asciz "\n\n*** AHORCADO - JUEGO DE PALABRAS ***\n\n"
 mensaje_mostrar:    .asciz "Palabra a descubrir: "
 mensaje_fallos:     .asciz "Errores cometidos: %d/%d\n"
 mensaje_letra:      .asciz "Escribe una letra: "
